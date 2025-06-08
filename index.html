@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Welcome.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Simple home page made by awild_goose." />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Welcome." />
+    <meta property="og:description" content="Made by awild_goose!" />
+    <meta property="og:url" content="https://steve.jackssrt.com/" />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/61917452" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Welcome." />
+    <meta name="twitter:description" content="Made by awild_goose!" />
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/61917452" />
+
+    <style>
+        :root {
+            --cat-bg: #1e1e2e;
+            --cat-text-primary: #cdd6f4;
+            --cat-text-secondary: #bac2de;
+            --cat-accent-1: #f38ba8; /* red/pink */
+            --cat-accent-2: #fab387; /* peach */
+            --cat-accent-3: #a6e3a1; /* green */
+            --cat-muted: #9399b2;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--cat-bg);
+            color: var(--cat-text-primary);
+            flex-direction: column;
+        }
+        .container {
+            text-align: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1 {
+            font-size: 3em;
+            color: var(--cat-text-primary);
+        }
+        p {
+            margin-top: 1em;
+            font-size: 1.2em;
+            color: var(--cat-text-secondary);
+        }
+        a {
+            text-decoration: none;
+            color: var(--cat-accent-2);
+            display: inline-flex;
+            align-items: center;
+            transition: color 0.2s ease-in-out;
+        }
+        a:hover {
+            color: var(--cat-accent-1);
+        }
+        .footer {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .footer * {
+            font-size: 0.9em;
+            color: var(--cat-muted);
+        }
+        svg {
+            height: 16px;
+            width: 16px;
+            margin-right: 6px;
+            filter: invert(1) brightness(0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome.</h1>
+        <p>
+          Check me out on
+          <a href="https://github.com/awildergoose/" target="_blank" rel="noopener noreferrer">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M12 1C5.9225 1 1 5.9225 1 12C1 16.8675 4.14875 20.9787 8.52125 22.4362C9.07125 22.5325 9.2775 22.2025 9.2775 21.9137C9.2775 21.6525 9.26375 20.7862 9.26375 19.865C6.5 20.3737 5.785 19.1912 5.565 18.5725C5.44125 18.2562 4.905 17.28 4.4375 17.0187C4.0525 16.8125 3.5025 16.3037 4.42375 16.29C5.29 16.2762 5.90875 17.0875 6.115 17.4175C7.105 19.0812 8.68625 18.6137 9.31875 18.325C9.415 17.61 9.70375 17.1287 10.02 16.8537C7.5725 16.5787 5.015 15.63 5.015 11.4225C5.015 10.2262 5.44125 9.23625 6.1425 8.46625C6.0325 8.19125 5.6475 7.06375 6.2525 5.55125C6.2525 5.55125 7.17375 5.2625 9.2775 6.67875C10.1575 6.43125 11.0925 6.3075 12.0275 6.3075C12.9625 6.3075 13.8975 6.43125 14.7775 6.67875C16.8813 5.24875 17.8025 5.55125 17.8025 5.55125C18.4075 7.06375 18.0225 8.19125 17.9125 8.46625C18.6138 9.23625 19.04 10.2125 19.04 11.4225C19.04 15.6437 16.4688 16.5787 14.0213 16.8537C14.42 17.1975 14.7638 17.8575 14.7638 18.8887C14.7638 20.36 14.75 21.5425 14.75 21.9137C14.75 22.2025 14.9563 22.5462 15.5063 22.4362C19.8513 20.9787 23 16.8537 23 12C23 5.9225 18.0775 1 12 1Z"></path>
+            </svg>
+            GitHub
+          </a>!
+        </p>
+    </div>
+    <div class="footer">
+       <p>GitHub and the GitHub logo are trademarks of GitHub, Inc. This site is not affiliated with or endorsed by GitHub.</p>
+       <p style="margin-bottom: -5px;">Site domain from the goat jackssrt :3</p>
+    </div>
+</body>
+</html>
